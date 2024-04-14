@@ -27,8 +27,8 @@ public class NumberResource {
             description = "This endpoint generates a random ISBN numbers for the book."
     )
     public IsbnNumbers generateIsbnNumbers() {
-        return new IsbnNumbers("10-"+ new Random().nextInt(100_000),
-                "13-"+ new Random().nextInt(100_000_000),
+        return new IsbnNumbers("10-" + new Random().nextInt(100_000),
+                "13-" + new Random().nextInt(100_000_000),
                 Instant.now());
     }
 }

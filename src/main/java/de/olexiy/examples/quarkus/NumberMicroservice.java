@@ -23,7 +23,7 @@ import org.eclipse.microprofile.openapi.annotations.tags.Tag;
 
                 externalDocs = @ExternalDocumentation(
                         description = "More information about the microservice",
-                        url = "http://localhost:8080/"
+                        url = "https://github.com/olexiy/rest-number"
 
         ),
         tags = {
